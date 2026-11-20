@@ -1,3 +1,4 @@
+@font-face{font-family:"Noto Sans Thai";src:url("./fonts/NotoSansThai.ttf") format("truetype");font-weight:100 900;font-display:swap}
 :root{font:16px/1.55 "Noto Sans Thai",system-ui,sans-serif;color:#18372e;background:#f7f6ef;--green:#174436;--line:#dce1d7}
 *{box-sizing:border-box} [hidden]{display:none!important} body{margin:0}
 header,main{width:min(1120px,calc(100% - 40px));margin:auto}
@@ -13,17 +14,11 @@ h2{font-size:1.32rem} h3{font-size:1.05rem}
 .toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:28px 0 14px}
 #status:not(:empty){margin:14px 0;color:#496659}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,265px),1fr));gap:12px}
-.card,.panel,.admin-row{background:#fff;border:1px solid var(--line);border-radius:14px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px}
 .card{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:13px;padding:15px;min-height:90px;transition:transform .16s,border-color .16s}
 .card:hover{transform:translateY(-2px);border-color:#688f7d}
-.card p,.admin-row p{font-size:.86rem;color:#4e655b;overflow-wrap:anywhere}.card h3{overflow-wrap:anywhere}
+.card p{font-size:.86rem;color:#4e655b;overflow-wrap:anywhere}.card h3{overflow-wrap:anywhere}
 .mark{display:grid;place-items:center;border-radius:11px;width:42px;height:42px;background:#e6efe1;color:#214635;font-size:.76rem;font-weight:750}
-input,button{font:inherit;border-radius:9px;padding:9px 12px} input{border:1px solid #b9c7bd;background:#fff;color:inherit;min-width:0} .toolbar input{width:min(48%,280px)}
-button{background:var(--green);border:1px solid var(--green);color:#fff;cursor:pointer;font-weight:650}
-button.secondary{color:var(--green);background:#fff;border-color:#aebfb4} button:disabled{opacity:.55;cursor:wait}
+input{font:inherit;border-radius:9px;padding:9px 12px} input{border:1px solid #b9c7bd;background:#fff;color:inherit;min-width:0} .toolbar input{width:min(48%,280px)}
 :focus-visible{outline:3px solid #bb702a;outline-offset:3px}
-.panel{padding:18px;display:grid;gap:13px;margin:16px 0}.panel:not(#editor){max-width:460px}
-.panel label{display:grid;gap:4px}.panel button{justify-self:start}
-.fields,.admin-row,.actions{display:flex;gap:10px;flex-wrap:wrap}.fields label{flex:1;min-width:min(100%,220px)}
-.admin-links{display:grid;gap:9px}.admin-row{align-items:center;justify-content:space-between;padding:14px}.admin-row[data-hidden=true]{background:#eeefe9}.admin-row .actions{margin-left:auto}
 @media(prefers-reduced-motion:reduce){.card{transition:none}}
