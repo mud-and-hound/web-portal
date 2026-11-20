@@ -38,5 +38,35 @@
     "title": "Vehicle Log",
     "description": "ระบบบันทึกการใช้รถ",
     "url": "https://mud-and-hound.github.io/Vehicle-log/"
+  },
+  {
+    "title": "Bean Hound Menu",
+    "description": "เมนู Bean Hound",
+    "url": "https://mud-and-hound.github.io/beanhound-menu/"
+  },
+  {
+    "title": "Booking Meeting",
+    "description": "ระบบจองห้องประชุม",
+    "url": "https://mud-and-hound.github.io/Booking-meeting/"
+  },
+  {
+    "title": "CM POS Recipe Checker",
+    "description": "ตรวจสอบสูตรใน CM POS",
+    "url": "https://mud-and-hound.github.io/Cmpos-recipe-checker/"
+  },
+  {
+    "title": "TimeMud RN",
+    "description": "หน้าแอดมิน TimeMud",
+    "url": "https://mud-and-hound.github.io/TimeMudRN/index.html"
+  },
+  {
+    "title": "ตัวแปลงหน่วยวัตถุดิบ",
+    "description": "เครื่องมือแปลงหน่วยวัตถุดิบ",
+    "url": "https://mud-and-hound.github.io/Unit_converter-/"
+  },
+  {
+    "title": "RentHub",
+    "description": "ดูไฟล์บน GitHub · ยังไม่มี URL เว็บที่เผยแพร่",
+    "url": "https://github.com/mud-and-hound/renthub/blob/main/renthub.html"
   }
 ]
