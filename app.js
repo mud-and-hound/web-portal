@@ -41,7 +41,7 @@ function renderPublic() {
 async function loadPublic() {
   state.textContent = 'กำลังโหลดลิงก์…';
   try {
-    const response = await fetch('./links.json');
+    const response = await fetch('./links.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error('Could not load links');
     records = await response.json();
     $('search').addEventListener('input', renderPublic);
