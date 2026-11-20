@@ -1,0 +1,11 @@
+[
+  {"title":"Bean Hound Rewards","description":"ระบบสะสมคะแนน Bean Hound","url":"https://mud-and-hound.github.io/Beanhound-point-web/","position":10},
+  {"title":"IT Onboarding","description":"แบบฟอร์มเริ่มงานด้านไอที","url":"https://mud-and-hound.github.io/DocumentUser/","position":20},
+  {"title":"Generate Web Member","description":"หน้าจัดการข้อมูลสมาชิก","url":"https://mud-and-hound.github.io/Generate-Web-Member/","position":30},
+  {"title":"HR NextGen","description":"ระบบจัดการงานบุคคล","url":"https://mud-and-hound.github.io/hr-nextgen/","position":40},
+  {"title":"แจ้งซ่อม IT","description":"เปิดและติดตามใบแจ้งซ่อม","url":"https://it-service-56im.onrender.com/report/","position":50},
+  {"title":"ศูนย์รับแจ้งเบาะแส","description":"ระบบแจ้งเบาะแส","url":"https://mud-and-hound.github.io/report-center/","position":60},
+  {"title":"ใบแจ้งงานขนส่ง","description":"ระบบใบแจ้งงานขนส่ง","url":"https://mud-and-hound.github.io/transport-notice/","position":70},
+  {"title":"Vehicle Log","description":"ระบบบันทึกการใช้รถ","url":"https://mud-and-hound.github.io/Vehicle-log/","position":80},
+  {"title":"RentHub","description":"รอ URL เว็บไซต์","url":null,"position":90,"hidden":true}
+]
